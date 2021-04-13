@@ -10,11 +10,7 @@ package Control;
  * @author gedea
  */
 public class Main {
-    public static void main(String[] args) {
-        
-        ViewInicio viewInicio = new ViewInicio();
-        viewInicio.setVisible(true);
-        ControlInicio controlInicio= new ControlInicio(viewInicio);
-        viewInicio.setLocationRelativeTo(null);
+    public static void main(String[] args) {  
+        ControlInicio controlInicio = new ControlInicio();
     }
 }

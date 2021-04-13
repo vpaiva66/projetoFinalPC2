@@ -4,11 +4,18 @@
  * and open the template in the editor.
  */
 package Control;
+import View.ViewInicio;
 
 /**
  *
  * @author gedea
  */
-public class ModelVeiculo {
+public class ControlInicio {
     
+    private ViewInicio viewInicio;
+    
+    public ControlInicio(){
+        this.viewInicio = new ViewInicio();
+        viewInicio.setLocationRelativeTo(null);
+    }
 }
