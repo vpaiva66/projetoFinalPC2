@@ -10,5 +10,5 @@ package Model;
  * @author gedea
  */
 public class ModelTraje {
-    
+
 }

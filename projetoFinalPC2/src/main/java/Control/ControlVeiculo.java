@@ -5,10 +5,19 @@
  */
 package Control;
 
+import View.ViewVeiculo;
+
 /**
  *
  * @author gedea
  */
 public class ControlVeiculo {
-    
+
+    private ViewVeiculo viewVeiculo;
+
+    public ControlVeiculo() {
+        this.viewVeiculo = new ViewVeiculo();
+        this.viewVeiculo.setVisible(true);
+        viewVeiculo.setLocationRelativeTo(null);
+    }
 }

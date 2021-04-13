@@ -10,7 +10,8 @@ package Control;
  * @author gedea
  */
 public class Main {
-    public static void main(String[] args) {  
+
+    public static void main(String[] args) {
         ControlInicio controlInicio = new ControlInicio();
     }
 }
