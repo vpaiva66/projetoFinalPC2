@@ -20,4 +20,6 @@ public class ControlVeiculo {
         this.viewVeiculo.setVisible(true);
         viewVeiculo.setLocationRelativeTo(null);
     }
+    
+    
 }

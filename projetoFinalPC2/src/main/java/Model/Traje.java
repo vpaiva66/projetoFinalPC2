@@ -9,6 +9,6 @@ package Model;
  *
  * @author gedea
  */
-public class ModelVeiculo {
+public class Traje {
 
 }

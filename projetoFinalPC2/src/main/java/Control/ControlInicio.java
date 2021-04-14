@@ -20,4 +20,6 @@ public class ControlInicio {
         this.viewInicio.setVisible(true);
         this.viewInicio.setLocationRelativeTo(null);
     }
+    
+    
 }
