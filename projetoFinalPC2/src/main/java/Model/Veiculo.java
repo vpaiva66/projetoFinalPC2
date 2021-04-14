@@ -14,15 +14,24 @@ import java.util.ArrayList;
 public class Veiculo {
     private String nome;
     private String tipo;
-    private Armas armas;
+    private ArrayList<Armas> armas;
     
 
     public Veiculo(String nome, String tipo) {
         this.nome = nome;
         this.tipo = tipo;
-        this.armas = new Armas();
+        this.armas = new ArrayList<>();
     }
 
+    
+    public void adicionarArmas() {
+        
+    }
+
+    public void removerArmas() {
+
+    }
+    
     public String getNome() {
         return nome;
     }
@@ -39,11 +48,11 @@ public class Veiculo {
         this.tipo = tipo;
     }
 
-    public Armas getArmas() {
+    public  ArrayList<Armas> getArmas() {
         return armas;
     }
 
-    public void setArmas(Armas armas) {
+    public void setArmas( ArrayList<Armas> armas) {
         this.armas = armas;
     }
 }
