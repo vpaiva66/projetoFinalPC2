@@ -26,16 +26,4 @@ public class ArmasDAO {
     public void deleta() {
 
     }
-
-    public void adicionarArmas() {
-
-    }
-
-    public void removerArmas() {
-
-    }
-
-    public void adicionar() {
-
-    }
 }
