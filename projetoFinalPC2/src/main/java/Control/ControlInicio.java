@@ -6,6 +6,7 @@
 package Control;
 
 import View.ViewInicio;
+import java.awt.event.ActionEvent;
 
 /**
  *
@@ -20,6 +21,5 @@ public class ControlInicio {
         this.viewInicio.setVisible(true);
         this.viewInicio.setLocationRelativeTo(null);
     }
-    
-    
+
 }
